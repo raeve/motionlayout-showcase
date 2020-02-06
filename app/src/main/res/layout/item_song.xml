@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:padding="12dp">
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:padding="12dp"
+  tools:background="@android:color/black">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@android:color/black"
-        android:textStyle="bold"
-        tools:text="@tools:sample/lorem" />
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Song"
+      android:textColor="@android:color/white"
+      android:textStyle="bold" />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@android:color/black"
-        tools:text="@tools:sample/lorem" />
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Artist - Album"
+      android:textColor="@android:color/white" />
 
 </LinearLayout>
