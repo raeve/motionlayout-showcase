@@ -61,8 +61,7 @@
       android:layout_height="180dp"
       android:layout_marginTop="16dp"
       android:scaleType="centerCrop"
-
-      android:src="@mipmap/ic_launcher"
+      android:src="@drawable/img_background"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent" />
@@ -71,6 +70,7 @@
       android:id="@+id/btnRandom"
       android:layout_width="172dp"
       android:layout_height="wrap_content"
+      android:textStyle="bold"
       android:background="@drawable/background_button_rounded"
       android:text="Random"
       app:layout_constraintEnd_toEndOf="parent"
@@ -81,8 +81,8 @@
       android:id="@+id/recyclerView"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:clipToPadding="true"
       android:background="@android:color/black"
+      android:clipToPadding="true"
       android:paddingTop="32dp"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
