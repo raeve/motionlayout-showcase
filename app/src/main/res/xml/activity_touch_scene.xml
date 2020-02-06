@@ -8,12 +8,12 @@
         app:duration="1000">
         <OnClick
             app:clickAction="toggle"
-            app:targetId="@id/text_view" />
+            app:targetId="@id/view2" />
     </Transition>
 
     <ConstraintSet android:id="@+id/start">
         <Constraint
-            android:id="@+id/text_view"
+            android:id="@+id/view2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:alpha="1"
@@ -25,7 +25,7 @@
 
     <ConstraintSet android:id="@+id/end">
         <Constraint
-            android:id="@+id/text_view"
+            android:id="@+id/view2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:alpha="0"
@@ -34,6 +34,4 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </ConstraintSet>
-
-
 </MotionScene>

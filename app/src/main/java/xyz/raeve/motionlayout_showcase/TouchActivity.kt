@@ -4,8 +4,8 @@ import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 
-class PlaylistActivity : AppCompatActivity(R.layout.activity_playlist) {
+class TouchActivity : AppCompatActivity(R.layout.activity_touch) {
     companion object {
-        fun getCallingIntent(context: Context?) = Intent(context, PlaylistActivity::class.java)
+        fun getCallingIntent(context: Context?) = Intent(context, TouchActivity::class.java)
     }
 }

@@ -20,6 +20,10 @@
         </activity>
 
         <activity
+            android:name=".TouchActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
             android:name=".PlaylistActivity"
             android:screenOrientation="portrait" />
     </application>

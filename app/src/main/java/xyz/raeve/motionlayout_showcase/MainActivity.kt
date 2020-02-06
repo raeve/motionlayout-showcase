@@ -20,9 +20,9 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
             adapter = ActivityAdapter(
                 listOf(
                     ActivityModel(
-                        "Playlist",
-                        "Dynamic collapsible toolbar",
-                        PlaylistActivity.getCallingIntent(this@MainActivity)
+                        "Touch",
+                        "Move elements through clicks",
+                        TouchActivity.getCallingIntent(this@MainActivity)
                     ),
                     ActivityModel(
                         "Playlist",
